@@ -1,0 +1,153 @@
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quán Ăn Việt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>QUÁN ĂN VIỆT</h1>
+        <p>Món ngon truyền thống - Đặt món online</p>
+    </header>
+
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#monan">Món ăn</a>
+        <a href="#thongtin">Thông tin đặt món</a>
+        <a href="#lienhe">Liên hệ</a>
+    </nav>
+
+    <div class="container">
+
+        <h2 id="monan">🍜 MÓN ĂN TRUYỀN THỐNG</h2>
+
+        <div class="food-list">
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1626804475297-41608ea09aeb">                <h3>Cơm tấm sườn</h3>
+                <p>Cơm tấm ăn cùng sườn nướng, bì và chả.</p>
+                <strong>45.000đ</strong>
+                <button>Đặt món</button>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43">
+                <h3>Phở bò</h3>
+                <p>Phở bò truyền thống với nước dùng đậm đà.</p>
+                <strong>50.000đ</strong>
+                <button>Đặt món</button>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1552611052-33e04de081de">
+                <h3>Hủ tiếu</h3>
+                <p>Hủ tiếu nóng với thịt, tôm và rau.</p>
+                <strong>45.000đ</strong>
+                <button>Đặt món</button>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
+                <h3>Thịt kho trứng</h3>
+                <p>Thịt kho mềm cùng trứng và nước kho đậm vị.</p>
+                <strong>55.000đ</strong>
+                <button>Đặt món</button>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19">
+                <h3>Cơm phần</h3>
+                <p>Cơm trắng kèm món mặn, rau và canh.</p>
+                <strong>40.000đ</strong>
+                <button>Đặt món</button>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85">                <p>Bún ăn cùng thịt nướng, rau và nước mắm.</p>
+                <strong>45.000đ</strong>
+                <button>Đặt món</button>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1550317138-10000687a72b">
+                <h3>Bánh mì thịt</h3>
+                <p>Bánh mì giòn với thịt, rau và nước sốt.</p>
+                <strong>30.000đ</strong>
+                <button>Đặt món</button>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b">                <h3>Cơm gà</h3>
+                <p>Cơm thơm ăn cùng gà và rau củ.</p>
+                <strong>50.000đ</strong>
+                <button>Đặt món</button>
+            </div>
+
+            <div class="food">
+                <img src="https://images.unsplash.com/photo-1555126634-323283e090fa">
+                <h3>Bún bò Huế</h3>
+                <p>Món bún đặc trưng với nước dùng cay thơm.</p>
+                <strong>50.000đ</strong>
+                <button>Đặt món</button>
+            </div>
+
+        </div>
+
+
+        <div class="order-section" id="thongtin">
+
+            <h2>🛒 THÔNG TIN ĐẶT MÓN</h2>
+
+            <form>
+
+                <label>Họ và tên:</label>
+                <input type="text" placeholder="Nhập họ và tên">
+
+                <label>Số điện thoại:</label>
+                <input type="text" placeholder="Nhập số điện thoại">
+
+                <label>Chọn món:</label>
+                <select>
+                    <option>Cơm tấm sườn - 45.000đ</option>
+                    <option>Phở bò - 50.000đ</option>
+                    <option>Hủ tiếu - 45.000đ</option>
+                    <option>Thịt kho trứng - 55.000đ</option>
+                    <option>Cơm phần - 40.000đ</option>
+                    <option>Bún thịt nướng - 45.000đ</option>
+                    <option>Bánh mì thịt - 30.000đ</option>
+                    <option>Cơm gà - 50.000đ</option>
+                    <option>Bún bò Huế - 50.000đ</option>
+                </select>
+
+                <label>Số lượng:</label>
+                <input type="number" value="1" min="1">
+
+                <label>Địa chỉ nhận hàng:</label>
+                <textarea placeholder="Nhập địa chỉ giao hàng"></textarea>
+
+                <label>Ghi chú:</label>
+                <textarea placeholder="Ví dụ: Không hành, ít cay..."></textarea>
+
+                <button class="submit" type="submit">
+                    Xác nhận đặt món
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <footer id="lienhe">
+        <p>© 2026 Quán Ăn Việt</p>
+        <p>Hotline: 0123 456 789</p>
+    </footer>
+
+</body>
+</html>
+```
