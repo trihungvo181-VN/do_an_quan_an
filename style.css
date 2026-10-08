@@ -89,15 +89,21 @@ h2 {
     margin: 12px;
 }
 
-button {
+/* Cập nhật selector để hỗ trợ cả thẻ button lẫn thẻ <a> dùng class .btn-order */
+button,
+.btn-order {
+    display: inline-block;
     background-color: #e85d04;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
 }
 
-button:hover {
+button:hover,
+.btn-order:hover {
     background-color: #c94d00;
 }
 
